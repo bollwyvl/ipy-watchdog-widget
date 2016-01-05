@@ -23,5 +23,6 @@ setup(
                  "Programming Language :: Python",
                  "License :: OSI Approved :: BSD License"],
     packages=["ipywatchdogwidget"],
+    install_requires=["ipywidgets", "watchdog"],
     include_package_data=True
 )
